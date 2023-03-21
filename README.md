@@ -8,8 +8,8 @@ Stat 415 course materials
 Lecture notes can be found on the course canvas website. 
 
 
-| Lecture                  | Date | Material | Readings                
-|--------------------------------|---------------|-------------------------|
+| Lecture                  |  Date | Material | Readings                
+|--------------------------------|---------------------|--------|-------------------------|
 | Week 1 Tuesday            | XXX |   No class. Watch Lecture 0.   | link 1 <br/> link 2  |
 | Week 1 Wednesday         | XXX | Data Clearning, Undersampling      | link 1  |
 | Week 2 Monday (Mar xx)     | XXX | Information Theory   <br/> Principle Componenet Analysis (PCA)  | link 1  |
