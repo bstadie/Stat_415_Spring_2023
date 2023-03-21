@@ -3,6 +3,9 @@ Stat 415 course materials
 
 
 
+# Homeworks and Due Dates
+
+
 | Project title                  | Date released | Due date                
 |--------------------------------|---------------|-------------------------|
 | Fraud Detection                | March 29      | April 12 (2 weeks)  |
