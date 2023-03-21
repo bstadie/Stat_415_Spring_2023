@@ -8,14 +8,14 @@ Stat 415 course materials
 Lecture notes can be found on the course canvas website. 
 
 
-| Lecture                  | Material | Readings                
+| Lecture                  | Date | Material | Readings                
 |--------------------------------|---------------|-------------------------|
-| Week 1 Tuesday (Mar xx)            |    No class. Watch Lecture 0.   | link 1 <br/> link 2  |
-| Week 1 Wednesday         | Data Clearning, Undersampling      | link 1  |
-| Week 2 Monday (Mar xx)     | Information Theory   <br/> Principle Componenet Analysis (PCA)  | link 1  |
-| Week 2 Wednesday               | Clustering        | link 1  |
-| Week 3 Monday |        Reccommender Systems    (3 weeks) | link 1  |
-| Week 3 Wednesday          | Linear Regression        | link 1  |
+| Week 1 Tuesday            | XXX |   No class. Watch Lecture 0.   | link 1 <br/> link 2  |
+| Week 1 Wednesday         | XXX | Data Clearning, Undersampling      | link 1  |
+| Week 2 Monday (Mar xx)     | XXX | Information Theory   <br/> Principle Componenet Analysis (PCA)  | link 1  |
+| Week 2 Wednesday             | XXX  | Clustering        | link 1  |
+| Week 3 Monday         | XXX | Reccommender Systems    (3 weeks) | link 1  |
+| Week 3 Wednesday       | XXX  | Linear Regression        | link 1  |
 
 
 
