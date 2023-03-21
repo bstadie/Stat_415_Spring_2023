@@ -10,11 +10,11 @@ Lecture notes can be found on the course canvas website.
 
 | Lecture                  |  Date | Material | Readings                
 |--------------------------|-------|----------|-------------------------|
-| Week 1, Tuesday          | XXX |   No class. Watch Lecture 0.   | link 1 <br/> link 2  |
-| Week 1, Wednesday        | XXX | Data Clearning, Undersampling      | link 1  |
+| Week 1, Tuesday          | XXX |   No class. Watch Lecture 0 about installing python.   | link 1 <br/> link 2  |
+| Week 1, Wednesday        | XXX | Data Clearning, EDA, Class Imbalance      | link 1  |
 | Week 2, Monday (Mar xx)  | XXX | Information Theory   <br/> Principle Componenet Analysis (PCA)  | link 1  |
-| Week 2. Wednesday        | XXX | Clustering        | link 1  |
-| Week 3, Monday           | XXX | Reccommender Systems    (3 weeks) | link 1  |
+| Week 2. Wednesday        | XXX | Clustering, K-Means, K-Means++, EM        | link 1  |
+| Week 3, Monday           | XXX | Reccommender Systems, Content-based filtering, <br/> collaborative filtering    (3 weeks) | link 1  |
 | Week 3, Wednesday        | XXX | Linear Regression        | link 1  |
 
 
