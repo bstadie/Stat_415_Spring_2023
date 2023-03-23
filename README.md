@@ -15,7 +15,20 @@ Lecture notes can be found on the course canvas website.
 | Week 2, Monday (Mar xx)  | XXX | Information Theory   <br/> Principle Componenet Analysis (PCA)  | link 1  |
 | Week 2. Wednesday        | XXX | Clustering, K-Means, K-Means++, EM        | link 1  |
 | Week 3, Monday           | XXX | Reccommender Systems, Content-based filtering, <br/> collaborative filtering    (3 weeks) | link 1  |
-| Week 3, Wednesday        | XXX | Linear Regression        | link 1  |
+| Week 3, Wednesday        | XXX | Linear Regression, Gradient Descent        | link 1  |
+| Week 4, Monday      | XXX | Logistic Regression, L1 & L2 Regularization, Bias-Variance Tradeoff        | link 1  |
+| Week 4, Wednesday     | XXX | Random Forrests, Decision Trees        | link 1  |
+| Week 5, Monday      | XXX | Deep Learning. Activation, Initialization, Optimizers        | link 1  |
+| Week 5, Wednesday     | XXX | Convolutional Neural Nets. Batch norm. Layer norm       | link 1  |
+| Week 6, Monday      | XXX | Black box attacks. Interpretability. Integrated Gradients        | link 1  |
+| Week 6, Wednesday     | XXX | Midterm      | link 1  |
+| Week 7, Monday      | XXX | Recurrent Neural Nets, Cross Validation on Time Series, Padding       | link 1  |
+| Week 7, Wednesday     | XXX | Transfer learning. Fine Tuning. MAML. Prototypical Nets    | link 1  |
+| Week 8, Monday      | XXX |    Unsupervised learning. Variational Autoencoders. Maximum Liklihood    | link 1  |
+| Week 8, Wednesday     | XXX | Generative Adversarial Nets. Diffusion Models. SD Edit      | link 1  |
+| Week 9, Monday      | XXX |    How ChatGPT works. Attention. Reinforcement Learning. Human in the Loop Training. Golden Labels    | link 1  |
+| Week 9, Wednesday     | XXX | Pruning. Distillation. Quantization. Federated learning. Model stability and drift.     | link 1  |
+| Week 10, Monday      | XXX |   Towards AGI. CLIP. Combining data modalities. Causality. Can wikipedia help offline RL?    | link 1  |
 
 
 
