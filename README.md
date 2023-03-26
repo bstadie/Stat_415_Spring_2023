@@ -28,7 +28,7 @@ Lecture notes can be found on the course canvas website.
 | Week 8, Wednesday        | XXX | Generative Adversarial Nets. Diffusion Models. SD Edit                         | link 1  |
 | Week 9, Monday           | XXX | How ChatGPT works. Attention. RL. Human in the Loop. Golden Labels             | link 1  |
 | Week 9, Wednesday        | XXX | Pruning. Distillation. Quantization. Federated learning. Model drift.          | link 1  |
-| Week 10, Monday          | XXX | Other things you should know. SVM, Kernel methods                              | link 1  |
+| Week 10, Monday          | XXX | Random ideas. SVM, Kernel methods. Bagging. Boosting                           | link 1  |
 | Week 10, Wednesday       | XXX | Towards AGI. CLIP. Causality. Can wikipedia help offline RL?                   | link 1  |
 
 
