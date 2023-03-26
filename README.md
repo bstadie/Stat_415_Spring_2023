@@ -14,11 +14,11 @@ Lecture notes can be found on the course canvas website.
 | Week 1, Wednesday        | March 29 | Data Clearning, EDA, Class Imbalance                                           | link 1  |
 | Week 2, Monday           | April 3  | Information Theory   <br/> Principle Componenet Analysis (PCA)                 | link 1  |
 | Week 2. Wednesday        | April 5  | Clustering, K-Means, K-Means++, Expectation Maximization (EM)                  | link 1  |
-| Week 3, Monday           | XXX | Reccommender Systems, Content-based filtering, <br/> collaborative filtering   | link 1  |
-| Week 3, Wednesday        | XXX | Linear Regression, Gradient Descent                                            | link 1  |
-| Week 4, Monday           | XXX | Logistic Regression, L1 & L2 Regularization, Bias-Variance Tradeoff            | link 1  |
-| Week 4, Wednesday        | XXX | Random Forrests, Decision Trees                                                | link 1  |
-| Week 5, Monday           | XXX | Deep Learning. Activation, Initialization, Optimizers                          | link 1  |
+| Week 3, Monday           | April 10 | Reccommender Systems, Content-based filtering, <br/> collaborative filtering   | link 1  |
+| Week 3, Wednesday        | April 12 | Linear Regression, Gradient Descent                                            | link 1  |
+| Week 4, Monday           | April 17 | Logistic Regression, L1 & L2 Regularization, Bias-Variance Tradeoff            | link 1  |
+| Week 4, Wednesday        | April 19 | Random Forrests, Decision Trees                                                | link 1  |
+| Week 5, Monday           | XXX | Deep Learning. Activation, Initialization, Advanced Optimizers                 | link 1  |
 | Week 5, Wednesday        | XXX | Convolutional Neural Nets. Batch norm. Layer norm                              | link 1  |
 | Week 6, Monday           | XXX | Black box attacks. Interpretability. Integrated Gradients                      | link 1  |
 | Week 6, Wednesday        | XXX | Midterm                                                                        | link 1  |
