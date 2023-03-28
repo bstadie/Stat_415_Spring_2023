@@ -9,7 +9,7 @@ Lecture notes can be found on the course canvas website.
 
 
 | Lecture                  |  Date | Material | Readings                
-|--------------------------|-------|----------|-------------------------|
+|--------------------------|-------|----------|----------------------------|
 | Week 1, Tuesday          | March 28 |   No class. Watch Lecture 0 about installing python.                                          | [Scikitlearn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) <br/> [Scikitlearn 2](https://scikit-learn.org/stable/tutorial/basic/tutorial.html) <br/> [Pandas](https://pandas.pydata.org/docs/user_guide/10min.html) |
 | Week 1, Wednesday        | March 29 | Data Clearning, EDA, Class Imbalance, Imputation                                              | link 1  |
 | Week 2, Monday           | April 3  | Information Theory   <br/> Principle Componenet Analysis (PCA)                                | link 1  |
