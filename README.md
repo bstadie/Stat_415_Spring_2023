@@ -10,25 +10,25 @@ Lecture notes can be found on the course canvas website.
 
 | Lecture                  |  Date | Material | Readings                
 |--------------------------|-------|----------|-------------------------|
-| Week 1, Tuesday          | March 28 |   No class. Watch Lecture 0 about installing python.                        | link 1 <br/> link 2  |
-| Week 1, Wednesday        | March 29 | Data Clearning, EDA, Class Imbalance, Imputation                            | link 1  |
-| Week 2, Monday           | April 3  | Information Theory   <br/> Principle Componenet Analysis (PCA)              | link 1  |
-| Week 2. Wednesday        | April 5  | Clustering, K-Means, K-Means++, Expectation Maximization (EM)               | link 1  |
-| Week 3, Monday           | April 10 | Recommender Systems, Content-based Filtering, <br/> Collaborative Filtering | link 1  |
-| Week 3, Wednesday        | April 12 | Linear Regression, Gradient Descent                                         | link 1  |
-| Week 4, Monday           | April 17 | Logistic Regression, L1 & L2 Regularization, Bias-Variance Tradeoff         | link 1  |
-| Week 4, Wednesday        | April 19 | Random Forests, Decision Trees                                              | link 1  |
-| Week 5, Monday           | April 24 | Deep Learning. Activation, Initialization, Advanced Optimizers               | link 1  |
-| Week 5, Wednesday        | April 26 | Convolutional Neural Nets. Batch Norm. Layer Norm                           | link 1  |
-| Week 6, Monday           | May 1    | Black Box Attacks. Interpretability. Integrated Gradients                       | link 1  |
-| Week 6, Wednesday        | May 3    | Recurrent Neural Nets, Cross Validation on Time Series, Padding                | link 1  |
-| Week 7, Monday           | May 8    | Transfer Learning. Fine Tuning. MAML. Prototypical Nets                        | link 1  |
-| Week 7, Wednesday        | May 10.  | Unsupervised Learning. Variational Autoencoders. Maximum Liklihood             | link 1  |
-| Week 8, Monday           | May 15.  | Generative Adversarial Nets. Diffusion Models. SD Edit                         | link 1  |
-| Week 8, Wednesday        | May 17   | How ChatGPT works. Attention. RL. Human in the Loop. Golden Labels            | link 1  |
-| Week 9, Monday           | May 22   | Pruning. Distillation. Quantization. Federated learning. Model drift.         | link 1  |
-| Week 9, Wednesday        | May 24   | Random Ideas. SVM, Kernel Methods. Bagging. Boosting                          | link 1  |
-| Week 10, Wednesday       | May 31   | Towards AGI. CLIP. Causality. Can wikipedia help offline RL?                  | link 1  |
+| Week 1, Tuesday          | March 28 |   No class. Watch Lecture 0 about installing python.                                          | link 1 <br/> link 2  |
+| Week 1, Wednesday        | March 29 | Data Clearning, EDA, Class Imbalance, Imputation                                              | link 1  |
+| Week 2, Monday           | April 3  | Information Theory   <br/> Principle Componenet Analysis (PCA)                                | link 1  |
+| Week 2. Wednesday        | April 5  | Clustering, K-Means, K-Means++, Expectation Maximization (EM)                                 | link 1  |
+| Week 3, Monday           | April 10 | Recommender Systems, Content-based Filtering, <br/> Collaborative Filtering                   | link 1  |
+| Week 3, Wednesday        | April 12 | Linear Regression, Gradient Descent                                                           | link 1  |
+| Week 4, Monday           | April 17 | Logistic Regression, L1 & L2 Regularization, Bias-Variance Tradeoff, F1-Score, Precision, AIC | link 1  |
+| Week 4, Wednesday        | April 19 | Random Forests, Decision Trees                                                                | link 1  |
+| Week 5, Monday           | April 24 | Deep Learning. Activation, Initialization, Advanced Optimizers                                | link 1  |
+| Week 5, Wednesday        | April 26 | Convolutional Neural Nets. Batch Norm. Layer Norm                                             | link 1  |
+| Week 6, Monday           | May 1    | Black Box Attacks. Interpretability. Integrated Gradients                                     | link 1  |
+| Week 6, Wednesday        | May 3    | Recurrent Neural Nets, Cross Validation on Time Series, Padding                               | link 1  |
+| Week 7, Monday           | May 8    | Transfer Learning. Fine Tuning. MAML. Prototypical Nets                                       | link 1  |
+| Week 7, Wednesday        | May 10.  | Unsupervised Learning. Variational Autoencoders. Maximum Liklihood                            | link 1  |
+| Week 8, Monday           | May 15.  | Generative Adversarial Nets. Diffusion Models. SD Edit                                        | link 1  |
+| Week 8, Wednesday        | May 17   | How ChatGPT works. Attention. RL. Human in the Loop. Golden Labels                            | link 1  |
+| Week 9, Monday           | May 22   | Pruning. Distillation. Quantization. Federated learning. Model drift.                         | link 1  |
+| Week 9, Wednesday        | May 24   | Random Ideas. SVM, Kernel Methods. Bagging. Boosting                                          | link 1  |
+| Week 10, Wednesday       | May 31   | Towards AGI. CLIP. Causality. Can wikipedia help offline RL?                                  | link 1  |
 
 
 
