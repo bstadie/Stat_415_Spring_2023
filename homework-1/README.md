@@ -1,10 +1,14 @@
-# Credit Card Fraud Detection: Homework 1
+# Homework 1: Credit Card Fraud Data Wrangling and EDA
 
-This repository contains materials and instructions for Homework 1, in which you will be working with a dataset of credit card transactions to develop insights into the predictors of credit card fraud and build a predictive model to classify whether a transaction is fraudulent or not.
+This repository contains materials and instructions for Homework 1, in which you will be working with a dataset of credit card transactions to perform data wrangling and exploratory data analysis. 
+
+The primary goal of the assignment is to gain insights into the predictors of credit card fraud, which is an important problem in the financial industry. While this assignment focuses on data preparation and analysis, it's worth noting that the insights gained from this work can be used to build predictive models in a real-world setting.
 
 ## Dataset
 
-The dataset `CreditCardFraud.csv` contains information on credit card transactions made by customers of a financial institution. For a detailed description of the variables included in the dataset, please refer to the [Dataset Description](#dataset-description) section below.
+To access the dataset for this assignment, go to **Files > Homework Data** on the Canvas course page. The dataset simulates credit card transaction info resembling that of a financial institution's customers. Check out the [Dataset Description](#dataset-description) section below for more details on the variables in the dataset.
+
+Please note that while the dataset looks similar to real transaction data, all its contents are entirely fictional. No identities of people, places, or things were affected while creating this dataset.
 
 ## Analysis Instructions
 
@@ -18,21 +22,20 @@ In addition to the PDF document, please also submit a code file that includes al
 
 1. [Data Wrangling](#data-wrangling)
 2. [Exploratory Data Analysis](#exploratory-data-analysis)
-3. [Modeling](#modeling)
 
 ## Data Wrangling
 
-1. Conduct preliminary data quality checks, such as detecting duplicated columns and columns with entirely missing data. Discuss potential issues or concerns that may emerge during the analysis, and consider how these issues might affect the overall quality or validity of the results.
+1. Perform preliminary data quality checks, such as identifying duplicated columns and columns with entirely missing data. Discuss any issues or concerns that may arise during the analysis, and consider how these issues could impact the overall quality or validity of the results.
 
-2. When exploring the data, pay close attention to outliers in numerical variables. Discuss methods for detecting outliers in the data, and outline how you should handle them. Document your strategy for identifying and dealing with outliers as part of your data wrangling process.
+2. Pay close attention to outliers in numerical variables when exploring the data. Discuss methods for detecting outliers, and explain how to handle them. Document your approach to identifying and dealing with outliers as part of your data wrangling process.
 
 3. Identify columns with missing values and determine how to manage them. Justify your approach and reasoning for handling missing values in the dataset.
 
-4. Some columns in the dataset may need special treatment during data wrangling due to their distinct characteristics. Explore alternative methods for integrating these variables into your analysis, and document any decisions made during this stage.
+4. Investigate the time variables in the dataset, and identify any potential issues that may arise when working with them. For example, you may need to convert the variables into a different format or conduct additional cleaning to ensure consistency and usability for analysis.
 
-5. Investigate the time variables in the dataset, and identify any potential issues that may occur when working with them. For example, you might need to convert the variables into a different format or conduct additional cleaning to ensure consistency and usability for analysis.
+5. Certain columns in the dataset may require special treatment during data wrangling due to their unique characteristics (e.g., `cardCVV`, `enteredCVV`, `cardLast4Digits`). Explore alternative methods for integrating these variables into your analysis, and document any decisions made during this stage.
 
-6. Bonus question: Can you programmatically identify reversed and multi-swipe transactions? Provide an estimate for the total number of transactions and total dollar amount for the multi-swipe transactions, excluding the first "normal" transaction from the count. Did you uncover any interesting findings?
+6. Programmatically identify multi-swipe transactions and the conditions under which they occur (e.g., same amount within a short time span). Estimate the percentage of multi-swipe transactions and the percentage of total dollar amount for these transactions, excluding the first "normal" transaction from the count. Were any interesting findings uncovered? 
 
 ## Exploratory Data Analysis
 
@@ -47,20 +50,6 @@ In addition to the PDF document, please also submit a code file that includes al
 5. Construct conditional probability density plots (or other suitable visualizations) for the numerical variables in the dataset to help understand the relationships between these variables and the target variable, `isFraud`. Identify any patterns or trends suggesting a relationship between the numerical variables and fraudulent transactions.
 
 6. Analyze the relationship between the columns `cardCVV`, `enteredCVV`, and `cardLast4Digits` and the target variable, `isFraud`, using an appropriate visualization (such as a grouped bar chart). Discuss the insights gained about the relationship between these variables and credit card fraud. Determine if any patterns or trends suggest a relationship between these columns and fraudulent transactions.
-
-## Modeling
-
-The goal is to build a predictive model to determine whether a given transaction will be fraudulent or not (`isFraud`).
-
-1. Discuss the metric(s) you plan to use for evaluating the performance of your predictive model and explain your choice of these metric(s). Consider factors such as the nature of the problem, the class imbalance, and the importance of false positives or false negatives.
-
-2. Describe the machine learning algorithm you would choose for building your predictive model and justify your selection. Consider factors such as the nature of the data, the complexity of the model, interpretability, and computational efficiency.
-
-3. Explain your approach for handling class imbalance in the dataset if it poses a problem. Discuss techniques such as oversampling the minority class
-
-4. Estimate the performance of your model using an appropriate sample, such as a cross-validated subset of the data or a hold-out test set. Present your results and explain your evaluation process.
-
-5. Detail your methodology by describing the modeling algorithm or method used and the reasons behind your choice, the features or data you found useful, any remaining questions, and potential next steps given more time. This may include refining the model, exploring additional features, or testing alternative algorithms.
 
 ## Dataset Description
 
