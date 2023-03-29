@@ -16,7 +16,7 @@ Lecture notes can be found on the course canvas website.
 | Week 2. Wednesday        | April 5  | Clustering, K-Means, K-Means++, Expectation Maximization (EM)                                 | link 1  |
 | Week 3, Monday           | April 10 | Recommender Systems, Content-based Filtering, <br/> Collaborative Filtering                   | link 1  |
 | Week 3, Wednesday        | April 12 | Linear Regression, Gradient Descent                                                           | link 1  |
-| Week 4, Monday           | April 17 | Logistic Regression, L1 & L2 Regularization, <br/> Bias-Variance Tradeoff, F1-Score, Precision, AIC | link 1  |
+| Week 4, Monday           | April 17 | Logistic Regression, L1 & L2 Regularization, Cross Validation <br/> F1-Score, Precision, AIC, Bias-Variance Tradeoff  | link 1  |
 | Week 4, Wednesday        | April 19 | Random Forests, Decision Trees                                                                | link 1  |
 | Week 5, Monday           | April 24 | Deep Learning. Activation, Initialization, Advanced Optimizers                                | link 1  |
 | Week 5, Wednesday        | April 26 | Convolutional Neural Nets. Batch Norm. Layer Norm                                             | link 1  |
