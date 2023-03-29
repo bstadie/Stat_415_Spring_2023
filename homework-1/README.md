@@ -14,7 +14,7 @@ Please note that while the dataset looks similar to real transaction data, all i
 
 Your analysis should be presented in a clear, visually appealing PDF document, with appropriate visualizations that are properly labeled and annotated to aid in interpretation. You may use any Python libraries or tools that you find helpful, but your document should not include any code. Focus on presenting your findings in a clear, concise, and understandable way.
 
-Please note that the questions provided in the homework assignment are meant to guide your analysis and help you explore the dataset. However, you are not limited to answering these questions alone. Feel free to explore any other aspects of the data that you find interesting or relevant, and include any additional insights or findings in your analysis.
+Please note that the questions provided in the homework assignment are meant to guide your analysis and help you explore the dataset. It is essential to address all of these questions in your analysis. However, you are not limited to answering these questions alone. Feel free to explore any other aspects of the data that you find interesting or relevant, and include any additional insights or findings in your analysis.
 
 In addition to the PDF document, please also submit a code file that includes all the code you used in your analysis.
 
