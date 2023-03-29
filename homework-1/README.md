@@ -2,7 +2,7 @@
 
 This repository contains materials and instructions for Homework 1, in which you will be working with a dataset of credit card transactions to perform exploratory data analysis and data cleaning.
 
-The primary goal of the assignment is to gain insights into the predictors of credit card fraud, which is an important problem in the financial industry. While this assignment focuses on data preparation and analysis, it's worth noting that the insights gained from this work can be used to build predictive models in a real-world setting.
+The primary goal of the assignment is to gain insights into the predictors of credit card fraud, which is an important problem in the financial industry. While this assignment focuses on data preparation and analysis, it's worth noting that the insights gained from this work can be used to build predictive models for credit card fraud detection. As such, throughout this assignment, we will be treating the fraud status as our outcome variable, with the understanding that it would serve as the target variable in a predictive model built at a later stage.
 
 ## Dataset
 
