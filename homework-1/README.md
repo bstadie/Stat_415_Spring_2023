@@ -1,6 +1,6 @@
 # Homework 1: Credit Card Fraud Data Wrangling and EDA
 
-This repository contains materials and instructions for Homework 1, in which you will be working with a dataset of credit card transactions to perform data wrangling and exploratory data analysis. 
+This repository contains materials and instructions for Homework 1, in which you will be working with a dataset of credit card transactions to perform exploratory data analysis and data cleaning.
 
 The primary goal of the assignment is to gain insights into the predictors of credit card fraud, which is an important problem in the financial industry. While this assignment focuses on data preparation and analysis, it's worth noting that the insights gained from this work can be used to build predictive models in a real-world setting.
 
@@ -18,12 +18,7 @@ Please note that the questions provided in the homework assignment are meant to 
 
 In addition to the PDF document, please also submit a code file that includes all the code you used in your analysis.
 
-## Sections
-
-1. [Data Wrangling](#data-wrangling)
-2. [Exploratory Data Analysis](#exploratory-data-analysis)
-
-## Data Wrangling
+Here are the data wrangling and EDA questions we'd like you to address as part of this assignment:
 
 1. Perform preliminary data quality checks, such as identifying duplicated columns and columns with entirely missing data. Discuss any issues or concerns that may arise during the analysis, and consider how these issues could impact the overall quality or validity of the results.
 
@@ -35,21 +30,21 @@ In addition to the PDF document, please also submit a code file that includes al
 
 5. Certain columns in the dataset may require special treatment during data wrangling due to their unique characteristics (e.g., `cardCVV`, `enteredCVV`, `cardLast4Digits`). Explore alternative methods for integrating these variables into your analysis, and document any decisions made during this stage.
 
-6. Programmatically identify multi-swipe transactions and the conditions under which they occur (e.g., same amount within a short time span). Estimate the percentage of multi-swipe transactions and the percentage of total dollar amount for these transactions, excluding the first "normal" transaction from the count. Were any interesting findings uncovered? 
-
-## Exploratory Data Analysis
-
-1. Visualize the distribution of `transactionAmount` using an appropriate plot, such as a histogram or density plot, to showcase the distribution of transaction amounts.
-
-2. Examine the class imbalance in the `isFraud` outcome variable. Discuss any observed patterns and explain their potential implications for building a predictive model for credit card fraud.
-
-3. Investigate the relationship between categorical predictors and `isFraud` by plotting bar charts or other suitable visualizations to display the fraudulent rate by `merchantCategoryCode`, `posEntryMode`, `transactionType`, `posConditionCode`, and `merchantCountryCode`. Describe the patterns you observe and their potential implications for creating a predictive model for credit card fraud.
-
-4. Further explore the relationship between `isFraud` and `transactionType` conditioned on `merchantCategoryCode` by generating a grouped bar chart or another suitable visualization to display the fraudulent rates by merchant category code and transaction type. Share any additional insights you have.
-
-5. Construct conditional probability density plots (or other suitable visualizations) for the numerical variables in the dataset to help understand the relationships between these variables and the target variable, `isFraud`. Identify any patterns or trends suggesting a relationship between the numerical variables and fraudulent transactions.
-
 6. Analyze the relationship between the columns `cardCVV`, `enteredCVV`, and `cardLast4Digits` and the target variable, `isFraud`, using an appropriate visualization (such as a grouped bar chart). Discuss the insights gained about the relationship between these variables and credit card fraud. Determine if any patterns or trends suggest a relationship between these columns and fraudulent transactions.
+
+7. Visualize the distribution of `transactionAmount` using an appropriate plot, such as a histogram or density plot. Provide a brief analysis of the observed pattern and discuss any insights or trends you can infer from the visualization.
+
+8. Investigate the relationship between `isFraud` and categorical predictors, such as `merchantCategoryCode`, `posEntryMode`, `transactionType`, `posConditionCode`, and `merchantCountryCode`, by reating suitable visualizations like bar charts to display the fraud rate for each category. Describe the patterns you observe and their potential implications for creating a predictive model for fraudulent transactions.
+
+9. Further explore the relationship between `isFraud` and `transactionType` conditioned on `merchantCategoryCode` by generating a grouped bar chart or another suitable visualization to display the fraudulent rates by merchant category code and transaction type. Share any additional insights you have.
+
+10. Construct conditional probability density plots (or other suitable visualizations) for the numerical variables in the dataset to help understand the relationships between these variables and the target variable, `isFraud`. Identify any patterns or trends suggesting a relationship between the numerical variables and fraudulent transactions.
+
+11. Programmatically identify multi-swipe transactions and the conditions under which they occur (e.g., same amount within a short time span). Estimate the percentage of multi-swipe transactions and the percentage of total dollar amount for these transactions, excluding the first "normal" transaction from the count. Were any interesting findings uncovered? 
+
+12. What patterns can be observed in the class imbalance of the `isFraud` outcome variable, and how might these patterns potentially influence the development of a predictive model for credit card fraud detection?
+
+13. Implement a method of your choice to mitigate class imbalance in the isFraud outcome variable. Describe the method you used and report its effects on the class distribution. How might addressing class imbalance impact the effectiveness and performance of a predictive model for credit card fraud detection?
 
 ## Dataset Description
 
