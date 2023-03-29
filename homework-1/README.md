@@ -42,7 +42,7 @@ Here are the data wrangling and EDA questions we'd like you to address as part o
 
 11. Programmatically identify multi-swipe transactions and the conditions under which they occur (e.g., same amount within a short time span). Estimate the percentage of multi-swipe transactions and the percentage of total dollar amount for these transactions, excluding the first "normal" transaction from the count. Were any interesting findings uncovered? 
 
-12. What patterns can be observed in the class imbalance of the `isFraud` outcome variable, and how might these patterns potentially influence the development of a predictive model for credit card fraud detection?
+12. Examine the class imbalance in the `isFraud` outcome variable and discuss the potential implications of these patterns for the development of a predictive model for credit card fraud detection.
 
 13. Implement a method of your choice to mitigate class imbalance in the isFraud outcome variable. Describe the method you used and report its effects on the class distribution. How might addressing class imbalance impact the effectiveness and performance of a predictive model for credit card fraud detection?
 
