@@ -6,7 +6,7 @@ The primary goal of the assignment is to gain insights into the predictors of cr
 
 ## Dataset
 
-To access the dataset for this assignment, go to **Files > Homework Data** on the Canvas course page. The dataset simulates credit card transaction info resembling that of a financial institution's customers. Check out the [Dataset Description](#dataset-description) section below for more details on the variables in the dataset.
+To access the dataset for this assignment, go to **Files > Homework Data** on the Canvas course page and download the `CreditCardFraud.csv` file. The dataset simulates credit card transaction info resembling that of a financial institution's customers. Check out the [Dataset Description](#dataset-description) section below for more details on the variables in the dataset.
 
 Please note that while the dataset looks similar to real transaction data, all its contents are entirely fictional. No identities of people, places, or things were affected while creating this dataset.
 
