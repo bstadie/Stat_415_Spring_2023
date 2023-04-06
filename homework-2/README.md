@@ -1,6 +1,10 @@
 # Homework 2: Reccommender Systems 
 
-This repository contains materials and instructions for Homework 1, in which you will be working with a dataset of credit card transactions to perform exploratory data analysis and data cleaning.
+This repository contains materials and instructions for Homework 2, in which you will be working with a dataset of restaurant reviews from Evanston IL. You will be tasked with taking this data and using it to build a reccommendation engine. 
+
+The primary goal of the assignment is to gain insight into different systems of reccommendaiton. In particular, we will focus on popularity matching, content based filtering, and collaborative filtering methods. All three of these methods are important problems in the technology and maketing industries. Broadly speaking, the outcome variable of interest in this dataset will be the user review score. 
+
+WIP!!!
 
 The primary goal of the assignment is to gain insights into the predictors of credit card fraud, which is an important problem in the financial industry. While this assignment focuses on data preparation and analysis, it's worth noting that the insights gained from this work can be used to build predictive models for credit card fraud detection. As such, throughout this assignment, we will be treating the fraud status as our outcome variable, with the understanding that it would serve as the target variable in a predictive model built at a later stage.
 
