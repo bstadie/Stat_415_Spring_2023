@@ -25,7 +25,7 @@ Lecture notes can be found on the course canvas website.
 | Week 7, Monday           | May 8    | Transfer Learning. Fine Tuning. MAML. Prototypical Nets                                       | link 1  |
 | Week 7, Wednesday        | May 10.  | Unsupervised Learning. Variational Autoencoders. Maximum Liklihood                            | link 1  |
 | Week 8, Monday           | May 15.  | Generative Adversarial Nets. Diffusion Models. SD Edit                                        | link 1  |
-| Week 8, Wednesday        | May 17   | How ChatGPT works. Attention. RL. Human in the Loop. Golden Labels                            | link 1  |
+| Week 8, Wednesday        | May 17   | How ChatGPT works. <br/> Attention, Transformers <br/>  RL, Human in the Loop Learning, <br/> Golden Labels                            | link 1  |
 | Week 9, Monday           | May 22   | Pruning. Distillation. Quantization. Federated learning. Model drift.                         | link 1  |
 | Week 9, Wednesday        | May 24   | Random Ideas. SVM, Kernel Methods. Bagging. Boosting                                          | link 1  |
 | Week 10, Wednesday       | May 31   | Towards AGI. CLIP. Causality. Can wikipedia help offline RL?                                  | link 1  |
