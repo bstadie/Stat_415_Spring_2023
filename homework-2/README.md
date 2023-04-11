@@ -55,7 +55,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 ### Natural language analysis 
 
-12. Consider the brief description column of the Restaurants dataset. Augement this description by attaching the restaurant's cusine type to the end of the description. 
+12. Consider the 'brief description' column of the Restaurants dataset. Augement this description by attaching the restaurant's cusine type to the end of the description. 
 
 13. Compute the Jaccard matrix for these text descriptions. In the Jaccard matrix, entry d_ij should be the Jaccard distance between restuarant i's description and restaurant j's descirpiton. For example, with Tapas Barcelona the description is: 'Festive, warm space known for Spanish small plates is adorned with colorful modern art & posters.' The Cusine is 'Spanish.' The augemented description would thus be: 'Festive, warm space known for Spanish small plates is adorned with colorful modern art & posters. Spanish' Name this variable "Augmented Description." 
 
