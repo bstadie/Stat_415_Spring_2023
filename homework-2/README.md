@@ -30,22 +30,51 @@ The questions we would like you to consider can be broken into five categories: 
 
 3. Perform clustering on the user demographic data, using a clustering algorithm of your choice. You will need to transform the categorical variables into one-hot encodings. Are there any obvious clusters of users? 
 
-4. Select 1 or 2 restaurants. For every cluster, compute the average review score of the chosen restaurant across users in the selected cluster. Are there any trends? Note, the answer to this question might be 'no there are no trends,' depending on what clustering algorithm you use and what restaurant you select.
+4. Select 1 or 2 restaurants. For every cluster, compute the average review score of the chosen restaurant across users in the selected cluster. Are there any trends? Note, the answer to this question might be 'No. there are no trends,' depending on what clustering algorithm you use and what restaurant you select.
 
 ### Popularity matching 
 
-3. What is the most highly rated restaurant? What is the average review score? What is the median review score? Plot a histogram of review scores. 
+4. What is the most highly rated restaurant? What is the average review score? What is the median review score? Plot a histogram of review scores. 
 
-4. What restaurant has received the largest quantitiy of reviews? What is the median number of reviews received?
+5. What restaurant has received the largest quantitiy of reviews? What is the median number of reviews received?
 
-5. What is the average number of reviews? 
+6. What is the average number of reviews? 
 
-6. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
+7. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
 
-7. Implement a shrinkage estimator that shrinks reviews back towards the mean score, scaled by the number of reviews a restaurant has received. See the lecture slides for more details. What restaurant benefits the most from this shrinkage estimation? What benefit is hurt the most by it? 
+8. Implement a shrinkage estimator that shrinks reviews back towards the mean score, scaled by the number of reviews a restaurant has received. See the lecture slides for more details. What restaurant benefits the most from this shrinkage estimation? What benefit is hurt the most by it? 
 
 
 ### Content based filtering 
+9. Using the data in the restaurants.csv table, compute the euclidean distance between every restaurant. 
+
+10. Repete the previous step, using cosine distance this time. 
+
+11. Write a script that takes a user and returns a reccommendation using content based filtering. This script should take a user, find restaurants the user liked, and then find similar restaurants using euclidean and cosine distances. 
+
+
+### Natural language analysis 
+
+12. Consider the brief description column of the Restaurants dataset. Augement this description by attaching the restaurant's cusine type to the end of the description. 
+
+13. Compute the Jaccard matrix for these text descriptions. In the Jaccard matrix, entry d_ij should be the Jaccard distance between restuarant i's description and restaurant j's descirpiton. For example, with Tapas Barcelona the description is: 'Festive, warm space known for Spanish small plates is adorned with colorful modern art & posters.' The Cusine is 'Spanish.' The augemented description would thus be: 'Festive, warm space known for Spanish small plates is adorned with colorful modern art & posters. Spanish' Name this variable "Augmented Description." 
+
+14. For Augemented Description, compute the TF-IDF score for each description. 
+
+15. Make a list of the 100 most popular words in the Augmented Description column. Write two nested for loops. First, loop over each of the restaurant descriptions. For each of the restaurant descriptions, also loop over every word in the 100 most popular words list. Compute the TF-IDF score for that word. The result should be 64 TF-IDF vectors of length 100, one for each restaurant. 
+
+16. Similar to step 13, compute the TF-IDf matrix. In this matrix, d_ij is the distance between the TF-IDF vectors for restaurants i and j. 
+
+17. Topic modeling. Perform clustering on the 64 TF-IDF vectors. Manually inspect the clusters. Are semantically similar topics clustered together? 
+
+18. Using BERT or Word2Vec, embed the restaurant descriptions into a vectorized representation. Similar to steps 13 and 16, compute an Embedding-Distance matrix, where d_ij is the distance between embedding vectors of restaurants i and j. 
+
+19. Come up with a methd of comparing the reccommendations made by Jaccard distance, TF-IDF distance, and BERT/Word2Vec distance. Expalin why this method makes sense. What metric does the best. 
+
+### Collaborative Filtering 
+
+
+
 
 
 
