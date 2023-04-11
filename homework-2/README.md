@@ -96,7 +96,7 @@ Note that you could use the results from step 24 to make reccommendations by fin
 
 28. Consider the column 'Review Text.' Embed the review text into a vector with one of Word2Vec, BERT, or TF-IDF. Using this embedding vector, try to predict the review score with a linear model. 
 
-29. Repete step 24, only this time include the vector for the embedded review text from step 28. Does including the embdeed review text improve the predictive power of the model? Explicitly compare your resutls at this step to the results from step 25. 
+29. Repete step 25, only this time include the vector for the embedded review text from step 28. Does including the embdeed review text improve the predictive power of the model? Explicitly compare your resutls at this step to the results from step 25. 
 
 30. Finally, we want to know what demographic features are useful for predicting coffee scores. There are 3 coffee shops in the dataset. For these three restaurants only, write a linear model that takes demographic data and predicts the score. 
 
