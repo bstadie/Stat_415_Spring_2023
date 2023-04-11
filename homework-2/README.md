@@ -26,11 +26,11 @@ The questions we would like you to consider can be broken into five categories: 
 
 1. Import and examine the data. Are there missing values? Do you care? 
 
-2. Make some histograms to try and better understand the data distribution. For example, you might consider making histograms for has children, vegetarian, and weight, prefered mode of transport, average amount spent, and Northwestern student. Also consider making histograms for the restaurant types. Is the dataset properly balanced? 
+2. Make some histograms to try and better understand the data distribution. For example, you might consider making histograms for 'has children', 'vegetarian', 'weight', 'prefered mode of transport', 'average amount spent', and 'Northwestern student'. Also consider making histograms for the 'cusine' in Restaurants.csv. Is the dataset properly balanced? 
 
 3. Perform clustering on the user demographic data, using a clustering algorithm of your choice. You will need to transform the categorical variables into one-hot encodings. Are there any obvious clusters of users? 
 
-4. Select 1 or 2 restaurants. For every cluster, compute the average review score of the chosen restaurant across users in the selected cluster. Are there any trends? Note, the answer to this question might be 'No. there are no trends,' depending on what clustering algorithm you use and what restaurant you select.
+4. For every cluster, compute the average review score across the entire cluster. Are there any trends? Note, the answer to this question might be 'No. there are no trends,' depending on what clustering algorithm you choose and what hyper-parameters you select. The point of this exercise is to practice clustering real data. 
 
 ### Popularity matching 
 
@@ -65,14 +65,41 @@ The questions we would like you to consider can be broken into five categories: 
 
 16. Similar to step 13, compute the TF-IDf matrix. In this matrix, d_ij is the distance between the TF-IDF vectors for restaurants i and j. 
 
-17. Topic modeling. Perform clustering on the 64 TF-IDF vectors. Manually inspect the clusters. Are semantically similar topics clustered together? 
+17. Using BERT or Word2Vec, embed the restaurant descriptions into a vectorized representation. Similar to steps 13 and 16, compute an Embedding-Distance matrix, where d_ij is the distance between embedding vectors of restaurants i and j. 
 
-18. Using BERT or Word2Vec, embed the restaurant descriptions into a vectorized representation. Similar to steps 13 and 16, compute an Embedding-Distance matrix, where d_ij is the distance between embedding vectors of restaurants i and j. 
-
-19. Come up with a methd of comparing the reccommendations made by Jaccard distance, TF-IDF distance, and BERT/Word2Vec distance. Expalin why this method makes sense. What metric does the best?
+18. Come up with a methd of comparing the reccommendations made by Jaccard distance, TF-IDF distance, and BERT/Word2Vec distance. Expalin why this method makes sense. What distance metric does the best under your proposed compairson method?
 
 ### Collaborative Filtering 
+19. Using the demographic data in Reviews.csv, form a vector. This vector should include numeric representations of traits such as 'has children', 'vegetarian', 'weight', 'prefered mode of transport', 'average amount spent', and 'Northwestern student.' Form this vector for every reviewer. Watch out for double counting. Many reviewers have reviewed multiple restaurants. We only want unique reviewers. 
 
+20. Using the vectors from the previous step, compute the distance between every user. Use this to create a reccommendation algorithm that takes a user and outputs a reccommendation made by a similar user.
+
+21. Rather than finding users that are similar in terms of demographics, we want to find users that gave similar reviews. Select a user j who has given at least 4 reviews. To find users that have given the most similar reviews, you will want to form a 64 dimensioanl vector where entry i is the user's review of restaurant i. This vector will have many blank entries. What should you use to fill in these blanks? Hint: probably not 0. 
+
+22. Repete step 21 to compute the review vector for every user. Now, write code that takes a user and finds other users with similar review vectors. 
+
+23. Compare the average quality of reccommendations made by steps 22 and 20. 
+
+### Predictive modeling 
+
+24. Write a linear model that takes demographic data, along with the cusine type for a restaurant, and tries to predict the restaurant score. 
+
+25. Evaluate your linear model using a train/test split. 
+
+26. Add an L1 penalty to your lienar regression model. Compare the test-set results with a standard lienar model. 
+
+27. Consider the column 'Review Text.' Embed the review text into a vector with one of Word2Vec, BERT, or TF-IDF. Using this embedding vector, try to predict the review score with a linear model. 
+
+28. Repete step 24, only this time include the vector for the embedded review text from step 27. Does including the embdeed review text improve the predictive power of the model? Explicitly compare your resutls at this step to the results from step 24. 
+
+29. Finally, we want to know what demographic features are useful for predicting coffee scores. There are 3 coffee shops in the dataset. For these three restaurants only, write a linear model that takes demographic data and predicts the score. 
+
+30. Examine the weights produced by the linear model in step 29. What demographic features are selected on? In other words, when are the weights of the linear model large? When are they small? Do certain groups of people like or dislike coffee? 
+
+
+### Final 
+
+31. Find at least 1 interesting thing in the dataset and write about it. For example, find a single user that hates every restaurant they review, or a trend among Northwestern students. When I did this exercise, I found 18 interesting trends in the data with minimial effort. So there should be plenty of things to find. 
 
 
 
