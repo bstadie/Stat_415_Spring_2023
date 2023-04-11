@@ -36,9 +36,9 @@ Note that you do not need to include all the histograms in your final report, on
 
 ### Popularity matching 
 
-4. What is the most highly rated restaurant? What is the average review score? What is the median review score? Plot a histogram of review scores. 
+5. What is the most highly rated restaurant? What is the average review score? What is the median review score? Plot a histogram of review scores. 
 
-5. What restaurant has received the largest quantitiy of reviews? What is the median number of reviews received?
+6. What restaurant has received the largest quantitiy of reviews? What is the median number of reviews received?
 
 7. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
 
