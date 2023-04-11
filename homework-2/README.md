@@ -26,7 +26,7 @@ The questions we would like you to consider can be broken into five categories: 
 
 1. Import and examine the data. Are there missing values? Do you care? 
 
-2. Make some histograms to try and better understand the data distribution. For example, you might consider making histograms for 'has children', 'vegetarian', 'weight', 'prefered mode of transport', 'average amount spent', and 'Northwestern student'. Also consider making histograms for the 'cusine' in Restaurants.csv. Is the dataset properly balanced? 
+2. Make some histograms to try and better understand the data distribution. For example, you might consider making histograms for 'has children', 'vegetarian', 'weight', 'prefered mode of transport', 'average amount spent', and 'Northwestern student'. Also consider making histograms for the 'cusine' in Restaurants.csv. Is the dataset properly balanced? Note that you do not need to include all the histograms in your final report, only the interesting ones. 
 
 3. Perform clustering on the user demographic data, using a clustering algorithm of your choice. You will need to transform the categorical variables into one-hot encodings. Are there any obvious clusters of users? 
 
