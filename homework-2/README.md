@@ -65,7 +65,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 15. Make a list of the 100 most popular words in the Augmented Description column. Write two nested for loops. First, loop over each of the restaurant descriptions. For each of the restaurant descriptions, also loop over every word in the 100 most popular words list. Compute the TF-IDF score for that word. The result should be 64 TF-IDF vectors of length 100, one for each restaurant. 
 
-16. Similar to step 13, compute the TF-IDf matrix. In this matrix, d_ij is the distance between the TF-IDF vectors for restaurants i and j. 
+16. Similar to step 13, compute the TF-IDF distance matrix. In this matrix, d_ij is the distance between the TF-IDF vectors for restaurants i and j. 
 
 17. Using BERT or Word2Vec, embed the restaurant descriptions into a vectorized representation. Similar to steps 13 and 16, compute an Embedding-Distance matrix, where d_ij is the distance between embedding vectors of restaurants i and j. 
 
