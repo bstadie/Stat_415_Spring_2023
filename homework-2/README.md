@@ -46,7 +46,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 
 ### Content based filtering 
-9. Using the data in the restaurants.csv table, compute the euclidean distance between every restaurant. 
+9. Using the data in the restaurants.csv table, compute the euclidean distance between every restaurant. Note that you will need to compute a numeric embedding of the categocial variables. Use one-hot encodings. 
 
 10. Repete the previous step, using cosine distance this time. 
 
