@@ -26,11 +26,26 @@ The questions we would like you to consider can be broken into five categories: 
 
 1. Import and examine the data. Are there missing values? Do you care? 
 
-2. Make some histograms to try and better understand the data distribution. For example, make histograms for has children, vegetarian, and weight, prefered mode of transport, average amount spent, and Northwestern student. Also consider making histograms for the restaurant types. Is the dataset properly balanced? 
+2. Make some histograms to try and better understand the data distribution. For example, you might consider making histograms for has children, vegetarian, and weight, prefered mode of transport, average amount spent, and Northwestern student. Also consider making histograms for the restaurant types. Is the dataset properly balanced? 
 
-3. 
+3. Perform clustering on the user demographic data, using a clustering algorithm of your choice. You will need to transform the categorical variables into one-hot encodings. Are there any obvious clusters of users? 
 
-1. Perform preliminary data quality checks, such as identifying duplicated columns and columns with entirely missing data. Determine how to manage these issues and justify your approach for handling them. 
+4. Select 1 or 2 restaurants. For every cluster, compute the average review score of the chosen restaurant across users in the selected cluster. Are there any trends? Note, the answer to this question might be 'no there are no trends,' depending on what clustering algorithm you use and what restaurant you select.
 
-2. 
+### Popularity matching 
+
+3. What is the most highly rated restaurant? What is the average review score? What is the median review score? Plot a histogram of review scores. 
+
+4. What restaurant has received the largest quantitiy of reviews? What is the median number of reviews received?
+
+5. What is the average number of reviews? 
+
+6. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
+
+7. Implement a shrinkage estimator that shrinks reviews back towards the mean score, scaled by the number of reviews a restaurant has received. See the lecture slides for more details. What restaurant benefits the most from this shrinkage estimation? What benefit is hurt the most by it? 
+
+
+### Content based filtering 
+
+
 
