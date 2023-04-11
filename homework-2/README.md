@@ -92,7 +92,7 @@ Note that you could use the results from step 24 to make reccommendations by fin
 
 26. Evaluate your linear model using a train/test split. 
 
-27. Add an L1 penalty to your lienar regression model. Compare the test-set results with a standard lienar model. 
+27. Add an L1 penalty to your lienar regression model. Compare the test-set results with a standard lienar model. What features are selected on by this L1 model? In other words, when are the weights of the linear model large? When are they small or negative? Are certain demographics more predictive of review score?
 
 28. Consider the column 'Review Text.' Embed the review text into a vector with one of Word2Vec, BERT, or TF-IDF. Using this embedding vector, try to predict the review score with a linear model. 
 
