@@ -40,7 +40,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 6. What restaurant has received the largest quantitiy of reviews? What is the median number of reviews received?
 
-7. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
+7. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation based on popularity score. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
 
 8. Implement a shrinkage estimator that shrinks reviews back towards the mean score, scaled by the number of reviews a restaurant has received. See the lecture slides for more details. What restaurant benefits the most from this shrinkage estimation? What benefit is hurt the most by it? 
 
