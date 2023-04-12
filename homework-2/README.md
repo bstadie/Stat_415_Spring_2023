@@ -1,4 +1,4 @@
-# Homework 2: Reccommender Systems 
+# Homework 2: Recommender Systems 
 
 This repository contains materials and instructions for Homework 2, in which you will be working with a dataset of restaurant reviews from Evanston IL. You will be tasked with taking this data and using it to build a reccommendation engine. 
 
