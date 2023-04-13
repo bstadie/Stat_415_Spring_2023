@@ -9,7 +9,7 @@ The primary goal of the assignment is to gain insight into different systems of 
 
 ## Dataset
 
-To access the dataset for this assignment, go to **Files > Homework Data** on the Canvas course page. There are two datasets. First, `Restaurants.csv' This file cotains information describing each of the restaurants in the dataset. For example, average cost and type of cusine. There is also a natural language description of each restaurant. The second file, 'Reviews.csv' contains user review scores for the restaurants. These reviews contain review text, dates of the review, and demographic data of the reviewer. This demographic data includes birth year, marital status, and vegetarian preferences. The outcome variable of interest for this assignemnt is the rating, which is a score from 1-5 of the restaurant. 
+To access the dataset for this assignment, go to **Files > Homework Data** on the Canvas course page. There are two datasets. First, `Restaurants.csv' This file cotains information describing each of the restaurants in the dataset. For example, average cost and type of cusine. There is also a natural language description of each restaurant. The second file, 'RestaurantReviews.xlsx' contains user review scores for the restaurants. These reviews contain review text, dates of the review, and demographic data of the reviewer. This demographic data includes birth year, marital status, and vegetarian preferences. The outcome variable of interest for this assignemnt is the rating, which is a score from 1-5 of the restaurant. 
 
 
 ## Analysis Instructions
