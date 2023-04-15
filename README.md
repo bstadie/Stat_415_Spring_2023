@@ -22,7 +22,7 @@ Lecture notes can be found on the course canvas website.
 | Week 5, Wednesday        | April 26 | Convolutional Neural Nets. Batch Norm. Max Pooling                                            | link 1  |
 | Week 6, Monday           | May 1    | Black Box Attacks. Interpretability. Integrated Gradients                                     | link 1  |
 | Week 6, Wednesday        | May 3    | Recurrent Neural Nets, Padding <br/> Cross Validation on Time Series <br/> Autoregressive models, Machine Translaiton                             | link 1  |
-| Week 7, Monday           | May 8    | Transfer Learning. Fine Tuning. MAML. Prototypical Nets                                       | link 1  |
+| Week 7, Monday           | May 8    | Transfer Learning. Fine Tuning. MAML. Prototypical Nets                                       | [Clustering With Bregman](https://www.jmlr.org/papers/volume6/banerjee05b/banerjee05b.pdf) |
 | Week 7, Wednesday        | May 10.  | Unsupervised Learning. Variational Autoencoders. <br/> Maximum Liklihood                            | link 1  |
 | Week 8, Monday           | May 15.  | Generative Adversarial Nets. Diffusion Models. SD Edit                                        | link 1  |
 | Week 8, Wednesday        | May 17   | How ChatGPT works. <br/> Attention, Transformers <br/>  RL, Human in the Loop Learning, Golden Labels                            | link 1  |
