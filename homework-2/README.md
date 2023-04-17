@@ -69,7 +69,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 17. Using BERT or Word2Vec, embed the restaurant descriptions into a vectorized representation. Similar to steps 13 and 16, compute an Embedding-Distance matrix, where d_ij is the distance between embedding vectors of restaurants i and j. 
 
-18. Come up with a methd of comparing the reccommendations made by Jaccard distance, TF-IDF distance, and BERT/Word2Vec distance. Expalin why this method makes sense. What distance metric does the best under your proposed compairson method?
+18. Come up with a methd of comparing the reccommendations made by Jaccard distance, TF-IDF distance, and BERT/Word2Vec distance. Expalin why this method makes sense. What distance metric does the best under your proposed compairson method? Be sure to visualize your results or present a table as evidence. 
 
 ### Collaborative Filtering 
 19. Using the demographic data in Reviews.csv, form a vector. This vector should include numeric representations of traits such as 'has children', 'vegetarian', 'weight', 'prefered mode of transport', 'average amount spent', and 'Northwestern student.' Form this vector for every reviewer. Watch out for double counting. Many reviewers have reviewed multiple restaurants. We only want unique reviewers. 
