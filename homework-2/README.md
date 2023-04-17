@@ -50,7 +50,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 10. Repete the previous step, using cosine distance this time. 
 
-11. Write a script that takes a user and returns a reccommendation using content based filtering. This script should take a user, find restaurants the user liked, and then find similar restaurants using euclidean and cosine distances. 
+11. Write a script that takes a user and returns a reccommendation using content based filtering. This script should take a user, find restaurants the user liked, and then find similar restaurants using euclidean and cosine distances. For one user and one selected restaurant, plot the top reccommendations by the system. Alternatively, you may show a simple table of the top reccommendations. The point is the show your system's output in some way. I don't care how you do it. 
 
 
 ### Natural language analysis 
