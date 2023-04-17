@@ -74,7 +74,7 @@ Note that you do not need to include all the histograms in your final report, on
 ### Collaborative Filtering 
 19. Using the demographic data in Reviews.csv, form a vector. This vector should include numeric representations of traits such as 'has children', 'vegetarian', 'weight', 'prefered mode of transport', 'average amount spent', and 'Northwestern student.' Form this vector for every reviewer. Watch out for double counting. Many reviewers have reviewed multiple restaurants. We only want unique reviewers. 
 
-20. Using the vectors from the previous step, write a function that takes a user and computes the distance from that user to every other user. Use this function to create a reccommendation algorithm that takes a user and outputs a reccommendation made by a similar user.
+20. Using the vectors from the previous step, write a function that takes a user and computes the distance from that user to every other user. Use this function to create a reccommendation algorithm that takes a user and outputs a reccommendation made by a similar user. Demonstrate this system by taking one user and producing K reccommendations. Include the user and the suggested reccommendations in your write-up. What is the distance between the user and the user that you used to make reccommendations? 
 
 21. Rather than finding users that are similar in terms of demographics, we want to find users that gave similar reviews. Select a user j who has given at least 4 reviews. To find users that have given the most similar reviews, you will want to form a 64 dimensioanl vector where entry i is the user's review of restaurant i. This vector will have many blank entries. What should you use to fill in these blanks? Hint: probably not 0. 
 
@@ -82,30 +82,26 @@ Note that you do not need to include all the histograms in your final report, on
 
 23. Compare the average quality of reccommendations made by steps 22 and 20. 
 
-24. For every user, make a 'user profile' vector that contains both the user's demographic data and the user's review vector. Similar to step 3, perform clustering on this data. Are there any trends in these clusters? 
-
-Note that you could use the results from step 24 to make reccommendations by finding a user's cluster and then reccommending well-liked restaurants within that cluster. However, we will not ask you to do this on this homework. But be aware this technique is extremely common in real reccommender systems. 
-
 ### Predictive modeling 
 
-25. Write a linear model that takes demographic data, along with the cusine type for a restaurant, and tries to predict the restaurant score. 
+24. Write a linear model that takes demographic data, along with the cusine type for a restaurant, and tries to predict the restaurant score. 
 
-26. Evaluate your linear model using a train/test split. 
+25. Evaluate your linear model using a train/test split. What is the error of your model? Take one review from the test set. Use your model to take user demographics for this review and cusine type and predict a score. Is this prediction accurate? 
 
-27. Add an L1 penalty to your lienar regression model. Compare the test-set results with a standard lienar model. What features are selected on by this L1 model? In other words, when are the weights of the linear model large? When are they small or negative? Are certain demographics more predictive of review score?
+26. Add an L1 penalty to your lienar regression model. Compare the test-set results with a standard lienar model. What features are selected on by this L1 model? In other words, when are the weights of the linear model large? When are they small or negative? Are certain demographics more predictive of review score?
 
-28. Consider the column 'Review Text.' Embed the review text into a vector with one of Word2Vec, BERT, or TF-IDF. Using this embedding vector, try to predict the review score with a linear model. 
+27. Consider the column 'Review Text.' Embed the review text into a vector with one of Word2Vec, BERT, or TF-IDF. Using this embedding vector, try to predict the review score with a linear model. 
 
-29. Repete step 25, only this time include the vector for the embedded review text from step 28. Does including the embdeed review text improve the predictive power of the model? Explicitly compare your resutls at this step to the results from step 25. 
+28. Repete step 24, only this time include the vector for the embedded review text from step 27. Does including the embdeed review text improve the predictive power of the model? Explicitly compare your resutls at this step to the results from step 24. 
 
-30. Finally, we want to know what demographic features are useful for predicting coffee scores. There are 3 coffee shops in the dataset. For these three restaurants only, write a linear model that takes demographic data and predicts the score. 
+29. Finally, we want to know what demographic features are useful for predicting coffee scores. There are 3 coffee shops in the dataset. For these three restaurants only, write a linear model that takes demographic data and predicts the score. 
 
-31. Examine the weights produced by the linear model in step 29. What demographic features are selected on? In other words, when are the weights of the linear model large? When are they small or negative? Do certain groups of people like or dislike coffee? 
+30. Examine the weights produced by the linear model in step 29. What demographic features are selected on? In other words, when are the weights of the linear model large? When are they small or negative? Do certain groups of people like or dislike coffee? 
 
 
 ### Final 
 
-32. Find at least 1 interesting thing in the dataset and write about it. For example, find a single user that hates every restaurant they review, or a trend among Northwestern students. When I did this exercise, I found 18 interesting trends in the data with minimial effort. So there should be plenty of things to find. 
+31. Find at least 1 interesting thing in the dataset and write about it. For example, find a single user that hates every restaurant they review, or a trend among Northwestern students. When I did this exercise, I found 18 interesting trends in the data with minimial effort. So there should be plenty of things to find. 
 
 
 
