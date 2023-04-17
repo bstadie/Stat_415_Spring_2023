@@ -42,7 +42,7 @@ Note that you do not need to include all the histograms in your final report, on
 
 7. Write a simple reccomendation engine wherein a user can input a cusine type and receive a reccommendation based on popularity score. Use this to give reccommendations for Spanish food, Chinese food, Mexican food, and Coffee. 
 
-8. Implement a shrinkage estimator that shrinks reviews back towards the mean score, scaled by the number of reviews a restaurant has received. See the lecture slides for more details. What restaurant benefits the most from this shrinkage estimation? What restaurant is hurt the most by it? Make a plot that demonstrates changes in review scores due to shrinkage estimation. For example, plot the top k-positive and negative changes in a bar chart. Feel free to make an alterative plot if you want. 
+8. Implement a shrinkage estimator that shrinks reviews back towards the mean score, scaled by the number of reviews a restaurant has received. See the lecture slides for more details. What restaurant benefits the most from this shrinkage estimation? What restaurant is hurt the most by it? Make a plot that demonstrates changes in review scores due to shrinkage estimation. For example, plot the top k-positive and negative changes in a bar chart. Feel free to make an alterative plot if you want, or to present your results as a table instead.
 
 
 ### Content based filtering 
