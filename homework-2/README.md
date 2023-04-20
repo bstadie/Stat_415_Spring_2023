@@ -30,7 +30,7 @@ The questions we would like you to consider can be broken into five categories: 
 
 Note that you do not need to include all the histograms in your final report, only the interesting ones. 
 
-3. Perform clustering on the user demographic data, using a clustering algorithm of your choice. You will need to transform the categorical variables into one-hot encodings. Are there any obvious clusters of users? 
+3. Perform clustering on the user demographic data, using a clustering algorithm of your choice. You will need to transform the categorical variables into one-hot encodings. Are there any distinct clusters of users? 
 
 4. For every cluster, compute the average review score across the entire cluster. Are there any trends? Note, the answer to this question might be 'No. there are no trends,' depending on what clustering algorithm you choose and what hyper-parameters you select. The point of this exercise is to practice clustering real data. 
 
