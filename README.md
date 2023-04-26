@@ -28,7 +28,7 @@ Lecture notes can be found on the course canvas website.
 | Week 8, Wednesday    |  May 17  | Generative Adversarial Nets. Diffusion Models. SD Edit                                        | link 1  |
 | Week 10, Wednesday    |  May 31  | Final exam. <br/> You may start exam at any time on May 31 and will have three hours to complete it from the time you choose to start. No class.    | link 1  |
 
-| Week 10, Wednesday       | May 31   | Final exam. <br/> You may start exam at any time on May 31 and will have three hours to complete it from the time you choose to start. No class. | link 1  |
+| Week 10, Wednesday       | May 31   | Final exam. <br/> You may start exam at any time on May 31 <br/> and will have three hours to complete <br/> it from the time you choose to start. No class. | link 1  |
 
 
 
