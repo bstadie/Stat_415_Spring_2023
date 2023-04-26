@@ -27,7 +27,7 @@ Lecture notes can be found on the course canvas website.
 | Week 8, Monday           | May 15.  | Generative Adversarial Nets. Diffusion Models. SD Edit                                        | link 1  |
 | Week 8, Wednesday        | May 17   | How ChatGPT works. <br/> Attention, Transformers <br/>  RL, Human in the Loop Learning, Golden Labels                            | link 1  |
 | Week 9, Monday           | May 22   | Pruning. Distillation. Model Growth. <br/> Quantization. Federated learning. <br/> Model drift.                         | link 1  |
-| Week 9, Wednesday        | May 24   | Other things you might need to know. <br/> SVM, Kernel Methods, h-index, <br/> Bagging, Boosting, Bias/Variance Tradeoff  <br/> Statistics on how to be a good parent.                                        | [Bias Variance](https://people.eecs.berkeley.edu/~jegonzal/assets/slides/linear_regression.pdf) <br/>  |
+| Week 9, Wednesday        | May 24   | Other things you might need to know. <br/> SVM, Kernel Methods, h-index, <br/> Bagging, Boosting, Bias/Variance Tradeoff  <br/> Statistics on how to live a good life.                                      | [Bias Variance](https://people.eecs.berkeley.edu/~jegonzal/assets/slides/linear_regression.pdf) <br/>  |
 | Week 10, Wednesday       | May 31   | Towards AGI. CLIP. Causality. Can wikipedia help offline RL?                                  | link 1  |
 
 
