@@ -26,7 +26,7 @@ Lecture notes can be found on the course canvas website.
 | Week 7, Wednesday          | May 10    | Transfer Learning. Fine Tuning. MAML. Prototypical Nets                                       | [Clustering With Bregman](https://www.jmlr.org/papers/volume6/banerjee05b/banerjee05b.pdf) |
 | Week 8, Monday        | May 15  | Unsupervised Learning. Variational Autoencoders. <br/> Maximum Liklihood                            | link 1  |
 | Week 8, Wednesday    |  May 17  | Generative Adversarial Nets. Diffusion Models. SD Edit                                        | link 1  |
-| Week 10, Wednesday    |  May 31  | Final exam. <br/> You may start exam at any time on May 31 and will have three hours to complete it from the time you choose to start. No class.    | link 1  |
+| Week 10, Wednesday    |  May 31  | Final exam. <br/> You may start exam at any time on May 31 <br/> and will have three hours to complete it  <br/> from the time you choose to start. No class.    | link 1  |
 
 | Week 10, Wednesday       | May 31   | Final exam. <br/> You may start exam at any time on May 31 <br/> and will have three hours to complete <br/> it from the time you choose to start. No class. | link 1  |
 
