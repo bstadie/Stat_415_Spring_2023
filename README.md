@@ -40,5 +40,5 @@ Lecture notes can be found on the course canvas website.
 | Fraud Detection                | March 29      | April 14 (2 weeks)  |
 | Reccommender Systems           | April 14      | May 2 (2.5 weeks)  |
 | Drunk Driving Demographics     | May 2         | May 12   (1.5 weeks)  |
-| Explainability & Animal Images | May 12        | May 31    (2.5 weeks) | 
-| Final Exam (Coding)            | June 9        | June 9 (2 hours)    |
+| Explainability & Animal Images | May 12        | May 26    (2 weeks) | 
+| Final Exam (Coding)            | May 31        | May 31 (3 hours)    |
