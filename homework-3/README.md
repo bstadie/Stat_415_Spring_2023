@@ -57,4 +57,4 @@ Note that actually achieving transfer is rather difficult. You won't be penalize
 
 14. Construct a Choropleth map of the US States. States should be colored by the percentage of drunk driving accidents in that state. 
 
-15. Again construct a Choropleth map. This time, pick one of your models and plot its errors on the map. Each state should be color coded by the magnitude of your estimator's error. What states are the easiest to predict? What states are the hardest? 
+15. Again construct a Choropleth map. This time, pick one of your predictive models and plot its errors on the map. Each state should be color coded by the magnitude of your estimator's error. What states are the easiest to predict? What states are the hardest? 
