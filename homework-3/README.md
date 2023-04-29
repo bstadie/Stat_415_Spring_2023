@@ -16,7 +16,7 @@ Unfortauntely, making predictions on a dataset with only 50 points is quite diff
 
 ### Linear Models
 
-Starting with the census-tracts-dataset.csv 
+Starting with the census-tracts-dataset.csv. 
 The target variables is percentage of drunk driving accidents. Be sure to set aside a validation set. 
 
 1. Train a linear model that takes all of the columns in the dataset and tries to predict the percentage of drunk driving accidents. [Note, you don't want to use the ID column in this analysis]. Make a histogram of the drunk driving percentage in the dataset. Compare this histogram to the predictions made by your linear model. 
