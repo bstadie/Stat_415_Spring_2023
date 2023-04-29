@@ -49,6 +49,12 @@ The target variables is percentage of drunk driving accidents. Be sure to set as
 
 12. Try your best to achieve some transfer learning. Take a linear model and train it on the data from census-tracts-dataset.csv. Then, take that trained linear model and try to make predictions on the data from raw_state_data_drunk_driving.csv. Does your trained linear model transfer? 
 
-13. Repeeat step 12 but using neural networks instead of linear models. First, train a neural network on census-tracts-dataset.csv. Then, once this training is done, train the network on the data from raw_state_data_drunk_driving.csv. Note, you might want to only train on the second dataset for a few iterations, since it is small and you risk overfitting if you train for a long time. How do your results compare to the results from 11? 
+13. Repeeat step 12, but using neural networks instead of linear models. First, train a neural network on census-tracts-dataset.csv. Then, once this training is done, train the network on the data from raw_state_data_drunk_driving.csv. Note, you might want to only train on the second dataset for a few iterations, since it is small and you risk overfitting if you train for a long time. How do your results compare to the results from 11? 
 
 Note that actually achieving transfer is rather difficult. You won't be penalized if you can't get this section to work fully, so long as you make an honest attempt. 
+
+### Visualization 
+
+14. Construct a Choropleth map of the US States. States should be colored by the percentage of drunk driving accidents in that state. 
+
+15. Again construct a Choropleth map. This time, pick one of your models and plot its errors on the map. Each state should be color coded by the magnitude of your estimator's error. What states are the easiest to predict? What states are the hardest? 
