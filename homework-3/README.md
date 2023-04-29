@@ -37,21 +37,21 @@ The target variables is percentage of drunk driving accidents. Be sure to set as
 
 ### Neural Networks 
 
-8. Using PyTorch, train a 3 layer neural network on this dataset. Report the MSE. 
+8. Using PyTorch, train a 3 layer neural network with Sigmoid activations on this dataset. Report the MSE. You might find [this resource](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py) helpful.
 
-9. Look at the distribution of outputs of your neural network. Compare it to the true distribution. Neural networks are well known to converge to the mean output. Is this happening to you? 
+9. Look at the distribution of outputs of your neural network. Compare it to the true distribution. Neural networks are well known to converge to the mean output. Is this happening to you? If it does happen, try to retrain your net from scratch. Is it a consistent problem?
 
 10. Tune your net by adjusting the optimizer, the number of layers in the net, and the activation functions you use. If you want, you can also try adding dropout and regularization, although this might not help much. Are you able to make any improvements? 
 
 ### Transfer Learning 
-
-11. Train a linear model and a neural net on the data from raw_state_data_drunk_driving.csv . How do the results compare to the results you achieved on the previous dataset? 
+We now turn our attention to raw_state_data_drunk_driving.csv. 
+11. Train a linear model, a neural net, and a random forrest on the data from raw_state_data_drunk_driving.csv. How do the results compare to the results you achieved on the larger dataset? 
 
 12. Try your best to achieve some transfer learning. Take a linear model and train it on the data from census-tracts-dataset.csv. Then, take that trained linear model and try to make predictions on the data from raw_state_data_drunk_driving.csv. Does your trained linear model transfer? 
 
-13. Repeeat step 12, but using neural networks instead of linear models. First, train a neural network on census-tracts-dataset.csv. Then, once this training is done, train the network on the data from raw_state_data_drunk_driving.csv. Note, you might want to only train on the second dataset for a few iterations, since it is small and you risk overfitting if you train for a long time. How do your results compare to the results from 11? 
+13. Let's try to achieve some transfer via training. First, train a neural network on census-tracts-dataset.csv. Then, once this first training is done, fine-tune the network by training on the data from raw_state_data_drunk_driving.csv. Note, you might want to only train on raw_state_data_drunk_driving.csv for a few iterations, since it is small and you risk overfitting if you train for a long time. How do your results compare to the results from 11? Does transfer help at all?
 
-Note that actually achieving transfer is rather difficult. You won't be penalized if you can't get this section to work fully, so long as you make an honest attempt. 
+Note that actually achieving transfer is rather difficult. You won't be penalized if you can't get this section to work fully, so long as you make an honest attempt. I had to use a 9 layer neural network to get it to work reliably. 
 
 ### Visualization 
 
