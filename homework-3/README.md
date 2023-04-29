@@ -31,7 +31,7 @@ The target variables is percentage of drunk driving accidents. Be sure to set as
 
 5. Train a random forrest model on the same dataset. Report the MSE. 
 
-6. Again, make a histogram of the forrest outputs vs the true data distribution. How do they compare? You can also consider making overlapping density plots instead of histograms, if you prefer. 
+6. Make a histogram of the forrest outputs vs the true data distribution. How do they compare? You can also consider making overlapping density plots instead of histograms, if you prefer. 
 
 7. Tune your random forrest. Can you improve it? Are any parameters important? 
 
@@ -39,7 +39,7 @@ The target variables is percentage of drunk driving accidents. Be sure to set as
 
 8. Using PyTorch, train a 3 layer neural network on this dataset. Report the MSE. 
 
-9. Once again, look at the distribution of outputs of your neural network. Compare it to the true distribution. Neural networks are well known to converge to the mean output. Is this happening to you? 
+9. Look at the distribution of outputs of your neural network. Compare it to the true distribution. Neural networks are well known to converge to the mean output. Is this happening to you? 
 
 10. Tune your net by adjusting the optimizer, the number of layers in the net, and the activation functions you use. If you want, you can also try adding dropout and regularization, although this might not help much. Are you able to make any improvements? 
 
@@ -57,4 +57,4 @@ Note that actually achieving transfer is rather difficult. You won't be penalize
 
 14. Construct a Choropleth map of the US States. States should be colored by the percentage of drunk driving accidents in that state. 
 
-15. Again construct a Choropleth map. This time, pick one of your predictive models and plot its errors on the map. Each state should be color coded by the magnitude of your estimator's error. What states are the easiest to predict? What states are the hardest? 
+15. Construct a second Choropleth map. This time, pick one of your predictive models and plot its errors on the map. Each state should be color coded by the magnitude of your estimator's error. What states are the easiest to predict? What states are the hardest? 
