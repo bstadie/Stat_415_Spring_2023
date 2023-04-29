@@ -45,6 +45,8 @@ The target variables is percentage of drunk driving accidents. Be sure to set as
 
 ### Transfer Learning 
 We now turn our attention to raw_state_data_drunk_driving.csv. 
+
+
 11. Train a linear model, a neural net, and a random forrest on the data from raw_state_data_drunk_driving.csv. How do the results compare to the results you achieved on the larger dataset? 
 
 12. Try your best to achieve some transfer learning. Take a linear model and train it on the data from census-tracts-dataset.csv. Then, take that trained linear model and try to make predictions on the data from raw_state_data_drunk_driving.csv. Does your trained linear model transfer? 
