@@ -25,8 +25,6 @@ The target variables is percentage of drunk driving accidents. Be sure to set as
 
 3. Tune your linear model with L1 and L2 regularization. Does this improve the MSE at all? It might not. 
 
-4. What features is your lienar model selecting on? 
-
 ### Random Forrest 
 
 5. Train a random forrest model on the same dataset. Report the MSE. 
