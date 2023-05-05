@@ -34,7 +34,7 @@ We now turn our attention to the animal classification dataset.
 
 7. Train a vanilla deep convolutional network on the animal classifcaiton dataset. 
 
-8. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this in part by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Make a similar curve that shows the training epoch on the X-axis and the model accuracy on the Y-axis. 
+8. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this in part by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Make a similar curve that shows the training epoch on the X-axis and the model accuracy on the Y-axis. What parameters are important? 
 
 
 ### Feature Atribution on Animal Images
