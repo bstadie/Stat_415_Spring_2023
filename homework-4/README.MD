@@ -39,7 +39,7 @@ We now turn our attention to the animal classification dataset.
 
 ### Feature Atribution on Animal Images
 
-9. Using the starter code [here](google.com), run SmoothGrad on one your convolutional model from step 8. Show a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
+9. Using the starter code [here](google.com), run SmoothGrad on one your convolutional model from step 8. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
 
 10. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 8 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](google.com)
 
