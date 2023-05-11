@@ -15,7 +15,7 @@ We will use two datasets for this assignment. First, we will consider the Pima I
 
 Starting with the Pima Indians Diabetes Database. This dataset can be downloaded [here](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
-1. Investigate the balance of the dataset with respect to the outcome variable. Is the outcome variable of the patient being diabetic undersampled? You always want to check this with medical data. 
+1. Investigate the balance of the dataset with respect to the outcome variable. Is the outcome variable of the patient being diabetic undersampled? More specifically, what percentage of the total outcomes have the patient as diabetic? You always want to check this with medical data. 
 
 2. Run a linear model on this dataset with an L1 penalty. What features does the model select on? 
 
