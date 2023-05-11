@@ -80,7 +80,7 @@ class SimpleCNN(nn.Module):
 if __name__ == '__main__':
     # Initialize your model by calling the class that defines your model architecture.
     # Here, 'ExampleCNN' is a placeholder for your model choice.
-    model = ExampleCNN()
+    model = SimpleCNN()
 
     # The weights from your pretrained model should be saved in a .pt file.
     model_weights = 'Load in your pretrained model weights.pt file here'
