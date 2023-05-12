@@ -55,10 +55,8 @@ if __name__ == '__main__':
     # Initialize LIME explainer
     explainer = lime_image.LimeImageExplainer()
 
-    # Load example image
-    # Here, I saved and loaded the second normalized image from my training dataset (norm_train_images[1]) as an example.
-    # You can replace 'torch.load('train_image.pth')' with your own image tensor for different results.
-    example_image = torch.load('train_image.pth')
+    # Here, you will need to replace 'YOUR_IMAGE_TENSOR' with your actual image tensor.
+    example_image = 'YOUR_IMAGE_TENSOR'
 
     # Convert image to numpy and make it suitable for LIME
     test_image = example_image.permute(1, 2, 0).numpy()
