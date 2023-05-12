@@ -10,7 +10,7 @@ For this assignment, we will be working with two datasets.
 
 **1. Pima Indians Diabetes Database:** This tabular database has several health diagnostic measures such as blood pressure, and the goal is to predict if a patient has diabetes. 
 
-**2. Animal-10N Image Classification Dataset:** The ANIMAL-10N dataset consists of ten classes of animals, comprising 50,000 training images and 5,000 testing images. Your task is to develop a model capable of accurately classifying the animal depicted in a given image. You can locate the Animal-10N datasets and a brief description of the data in the "Files > Homework Data > binary_ver" folder.
+**2. Animal-10N Image Classification Dataset:** The ANIMAL-10N dataset consists of ten classes of animals, comprising 50,000 training images and 5,000 testing images. Your task is to develop a model capable of accurately classifying the animal depicted in a given image. 
 
 ## Analysis Instructions
 
