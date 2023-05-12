@@ -59,7 +59,6 @@ if __name__ == '__main__':
     label_bytes = 4
     num_train_files = 1
     num_train_images = 'FILL_IN_THIS_VALUE'
-    num_test_image = 'FILL_IN_THIS_VALUE'
     width = 'FILL_IN_THIS_VALUE'
     height = 'FILL_IN_THIS_VALUE'
     depth = 'FILL_IN_THIS_VALUE'
@@ -67,7 +66,6 @@ if __name__ == '__main__':
 
     # Load training and test data
     train_images, train_labels = load_data('binary_ver/data_batch_1.bin', id_bytes, label_bytes, num_train_images, height, width, depth)
-    test_images, test_labels = load_data('binary_ver/test_batch.bin', id_bytes, label_bytes, num_test_image, height, width, depth)
 
     # Split training data into training and validation sets
     train_images, val_images, train_labels, val_labels = train_test_split(train_images, train_labels, test_size=0.1, random_state=42)
@@ -77,8 +75,6 @@ if __name__ == '__main__':
     print(train_labels.shape)
     print(val_images.shape)
     print(val_labels.shape)
-    print(test_images.shape)
-    print(test_labels.shape)
 
     # Show the second training image
     plt.imshow(train_images[1].permute(1, 2, 0))
