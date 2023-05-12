@@ -55,7 +55,7 @@ if __name__ == '__main__':
     # Initialize LIME explainer
     explainer = lime_image.LimeImageExplainer()
 
-    # Here, you will need to replace 'YOUR_IMAGE_TENSOR' with your actual image tensor.
+    # Here, you will need to replace 'YOUR_IMAGE_TENSOR' with your actual image tensor. Something like norm_train_images[0].
     example_image = 'YOUR_IMAGE_TENSOR'
 
     # Convert image to numpy and make it suitable for LIME
