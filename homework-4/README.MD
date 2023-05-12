@@ -6,8 +6,11 @@ In this homework, we will consider several methods for explaining the outputs of
 
 ## Dataset
 
-We will use two datasets for this assignment. First, we will consider the Pima Indians Diabetes Database. This tabular database has several health diagnostic measures such as blood pressure, and the goal is to predict if a patient has diabetes. 
+For this assignment, we will be working with two datasets.
 
+**1. Pima Indians Diabetes Database:** This tabular database has several health diagnostic measures such as blood pressure, and the goal is to predict if a patient has diabetes. 
+
+**2. Animal-10N Image Classification Dataset:** The ANIMAL-10N dataset consists of ten classes of animals, comprising 50,000 training images and 5,000 testing images. Your task is to develop a model capable of accurately classifying the animal depicted in a given image. You can locate the Animal-10N datasets and a brief description of the data in the "Files > Homework Data > binary_ver" folder.
 
 ## Analysis Instructions
 
@@ -32,18 +35,20 @@ Starting with the Pima Indians Diabetes Database. This dataset can be downloaded
 
 We now turn our attention to the animal classification dataset. 
 
-7. Train a linear model on the animal clasification dataset. Note that you will need to use PyTorch to train this model, since there is no way you'll be able to do the matrix inversion required to run OLS. Here is some [starter code](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py). A linear model cooresponds to a single linear layer from the input to the output.
+7. First, let's start by loading the data. Here's some [starter code](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/data_loader.py) for data loading is provided. You need to fill in the missing parts of the code to correctly load the data. Then, visualize an example image from each class in the training dataset.
 
-8. Train a vanilla deep convolutional network on the animal classifcaiton dataset. You should reference the starter code [here](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/nn_models.py#L50). 
+8. Train a linear model on the animal clasification dataset. Note that you will need to use PyTorch to train this model, since there is no way you'll be able to do the matrix inversion required to run OLS. Here is some [starter code](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py). A linear model corresponds to a single linear layer from the input to the output.
 
-9. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Note that your overall graph will have 3 total curves: the linear model cross entropy loss vs epoch, the vanialla conv net cross entropy loss vs epoch, and the tuned convolutional model cross entropy loss vs epoch. Make a similar curve that shows the training epoch on the X-axis and the model test accuracy on the Y-axis for all three models. What hyper-parameters are important for learning?
+9. Train a vanilla deep convolutional network on the animal classifcaiton dataset. You should reference the starter code [here](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/nn_models.py#L50). 
+
+10. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Note that your overall graph will have 3 total curves: the linear model cross entropy loss vs epoch, the vanialla conv net cross entropy loss vs epoch, and the tuned convolutional model cross entropy loss vs epoch. Make a similar curve that shows the training epoch on the X-axis and the model test accuracy on the Y-axis for all three models. What hyper-parameters are important for learning?
 
 
 ### Feature Atribution on Animal Images
 
-10. Using the starter code [here](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/smooth_grad.py), run SmoothGrad on one your convolutional model from step 9. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
+11. Using the starter code [here](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/smooth_grad.py), run SmoothGrad on one your convolutional model from step 9. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
 
-11. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 9 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](google.com). Compare the features selected on by LIME and SmoothGrad. Are there any common features for certain animals? 
+12. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 9 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/LIME.py). Compare the features selected on by LIME and SmoothGrad. Are there any common features for certain animals? 
 
 That's it! You're done with the HW for this class. 
 
