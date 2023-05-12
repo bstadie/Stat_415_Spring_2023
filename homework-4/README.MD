@@ -34,7 +34,7 @@ We now turn our attention to the animal classification dataset.
 
 7. Train a linear model on the animal clasification dataset. Note that you will need to use PyTorch to train this model, since there is no way you'll be able to do the matrix inversion required to run OLS. Here is some [starter code](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py). A linear model cooresponds to a single linear layer from the input to the output.
 
-8. Train a vanilla deep convolutional network on the animal classifcaiton dataset. You should reference the starter code [here](google.com). 
+8. Train a vanilla deep convolutional network on the animal classifcaiton dataset. You should reference the starter code [here](https://github.com/bstadie/Stat_415_Spring_2023/blob/main/homework-4/nn_models.py#L50). 
 
 9. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Note that your overall graph will have 3 total curves: the linear model cross entropy loss vs epoch, the vanialla conv net cross entropy loss vs epoch, and the tuned convolutional model cross entropy loss vs epoch. Make a similar curve that shows the training epoch on the X-axis and the model test accuracy on the Y-axis for all three models. What hyper-parameters are important for learning?
 
