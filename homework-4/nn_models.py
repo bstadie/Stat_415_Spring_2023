@@ -12,14 +12,6 @@ from sklearn.model_selection import train_test_split
 
 from data_loader import load_data
 
-# Define the saving path for trained models
-save_path = "./saved_models/"
-if not os.path.exists(save_path):
-    os.makedirs(save_path)
-
-# Check device availability
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 # Define a normalization function
 def normalize(data):
@@ -38,10 +30,10 @@ def normalize(data):
 class LinearModel(nn.Module):
     def __init__(self):
         super(LinearModel, self).__init__()
-        self.linear = nn.Linear(input_size='FILL_IN_THIS_VALUE', output_size='FILL_IN_THIS_VALUE')
+        self.linear = nn.Linear(in_features='FILL_IN_THIS_VALUE', out_features='FILL_IN_THIS_VALUE')
 
     def forward(self, x):
-        x = x.view(x.size(0), -1)  # Flatten the input
+        x = x.reshape(x.size(0), -1)  # Flatten the input
         return self.linear(x)
 
 
@@ -106,7 +98,7 @@ def training_loop(model, dataset_train, dataset_val, epochs, batch_size, lr, sav
     model.to(device)
 
     # initialize an optimizer to update our model's parameters during training
-    optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+    optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
     # initialize a DataLoader object for each dataset
     train_dataloader = torch.utils.data.DataLoader(dataset_train, batch_size=batch_size, shuffle=True)
@@ -191,7 +183,6 @@ def training_loop(model, dataset_train, dataset_val, epochs, batch_size, lr, sav
                         # generate predictions and compute loss
                         output = model(x.float())
                         loss = loss_fn(output, y)
-                        print(loss)
 
                         # compute accuracy
                         preds = output.argmax(dim=1)
@@ -237,16 +228,14 @@ def training_loop(model, dataset_train, dataset_val, epochs, batch_size, lr, sav
 
 
 if __name__ == '__main__':
-    # Check device
-    if torch.backends.mps.is_available():
-        device = torch.device("mps")
-        print("MPS device found")
-    elif torch.cuda.is_available():
-        device = torch.device('cuda')
-        print("CUDA device found")
-    else:
-        print("No compatible GPU; CPU used instead")
-        device = torch.device('cpu')
+
+    # Define the saving path for trained models
+    save_path = "./saved_models/"
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+
+    # Check device availability
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Specify parameters (information can be found in the readme file)
     id_bytes = 4
