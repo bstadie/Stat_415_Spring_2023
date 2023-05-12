@@ -83,4 +83,3 @@ if __name__ == '__main__':
     # Show the second training image
     plt.imshow(train_images[1].permute(1, 2, 0))
     plt.show()
-
