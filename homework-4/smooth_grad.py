@@ -99,10 +99,8 @@ if __name__ == '__main__':
     # You can change these numbers to vary noise levels and number of images for averaging.
     smooth_grad = SmoothGrad(pretrained_model=model, cuda=False, stdev_spread=0.15, n_samples=25, magnitude=True)
 
-    # Load example image
-    # Here, I saved and loaded the second normalized image from my training dataset (norm_train_images[1]) as an example.
-    # You can replace 'torch.load('train_image.pth')' with your own image tensor for different results.
-    example_image = torch.load('train_image.pth')
+    # Here, you will need to replace 'YOUR_IMAGE_TENSOR' with your actual image tensor. Something like norm_train_images[0].
+    example_image = 'YOUR_IMAGE_TENSOR'
 
     # Compute the SmoothGrad saliency map
     # The image tensor is unsqueezed to add an extra dimension because the model expects a batch of images.
