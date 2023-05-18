@@ -20,7 +20,7 @@ Starting with the Pima Indians Diabetes Database. This dataset can be downloaded
 
 1. Investigate the balance of the dataset with respect to the outcome variable. Is the outcome variable of the patient being diabetic undersampled? More specifically, what percentage of the total outcomes have the patient as diabetic? You always want to check this with medical data. 
 
-2. Run a linear model on this dataset with an L1 penalty. What features does the model select on? 
+2. Run a linear or logistic model on this dataset with an L1 penalty. What features does the model select on? 
 
 3. Run a random forest on the dataset using SciKitLearn. After training, this classifier will have a field named `feature_importances_' that you can access. For example, if your trained random forest is called 'rfc' then you can call 'rfc.feature_importances_' to access feature importance. You can also call 'rfc.feature_names_in_' to get feature names. Doing this, what features does the random forest select on? 
 
