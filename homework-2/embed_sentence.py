@@ -2,7 +2,7 @@
 # pip install gensim
 
 
-def compute_embeddings_bert():
+def compute_embeddings_st():
     from sentence_transformers import SentenceTransformer
     # See https://github.com/UKPLab/sentence-transformers
     model = SentenceTransformer('all-MiniLM-L6-v2')
